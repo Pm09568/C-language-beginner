@@ -7,7 +7,9 @@ int main(int argc, char const *argv[])
   printf ("enter is a");
   scanf("%d",&a);
   printf("enter is b");
-  scanf("%d",&b)
+  scanf("%d",&b);
+  
+  printf("%d" ,a+b);
   
 
   
