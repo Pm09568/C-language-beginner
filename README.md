@@ -1,1 +1,1 @@
-# C-language-beginner
+# C-language learner
