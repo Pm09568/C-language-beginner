@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-
+ // this code is add of two numbers
 int main(int argc, char const *argv[])
 {
     int a,b;
