@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    float pi=3.14,r=6;
+    float  area,parameter;
+    area=pi*r*r;
+    parameter=2*pi*r;
+    printf("Area of circle = %f\n",area);
+    printf("Parameter of circle = %f\n",parameter);
+    return 0;
+}
