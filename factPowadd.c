@@ -8,9 +8,9 @@ void factorial();
 
 int main(){
     int n;
-    printf("\n Find Factorial for enter = 1 :");
-    printf("\n Find power for enter = 2 :");
-    printf("\nFind digit sum for enter = 3 :");
+    printf("\n Find Factorial for enter  1 ,\n");
+    printf("\n Find power for enter  2  and \n ");
+    printf("\nFind digit sum for enter  3 = :");
     scanf("%d",&n);
 
     switch (n)
