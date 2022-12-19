@@ -1,6 +1,5 @@
 #include<stdio.h>
-Void 
-main()
+Void main()
 {
     int n ,m,sum=0;
     printf("enter digit :");
