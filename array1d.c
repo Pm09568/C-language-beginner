@@ -2,5 +2,5 @@
 int main(){
     int i;
     int marks[5]={40 ,20 ,54 ,26,32};
-    printf("%p",marks);
+    printf("%d",marks);
 }

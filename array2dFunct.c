@@ -1,6 +1,8 @@
+
 #include<stdio.h>
+void display(int ,int, int ,int);
 int main(){
-    int i,j,a,b,c,d;
+    int a,b,c,d;
     printf("enter matrix size of a :");
     scanf("%d %d",&a,&b);
     printf("\nenter matrix size of b :");
@@ -8,6 +10,11 @@ int main(){
     printf("\narray size a =  %d by %d\n",a,b);
     printf("\narray size b = %d by %d\n",c,d);
     printf("enter matrix A :");
+    display(a,b,c,d);
+    return 0;
+} 
+int i,j;
+void display(int a ,int b ,int c,int d){
     int A[a][b];
     for(i=0;i<a;i++){
         for(j=0;j<b;j++){
@@ -40,6 +47,6 @@ int main(){
         }
         printf("\n");
     }
-     
-    return 0;
-}
+    } 
+
+
