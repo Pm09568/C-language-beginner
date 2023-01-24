@@ -3,7 +3,7 @@ void displya(int *);
 int mian(){
     char name[20];
     printf("enter string");
-    scanf(%[^\n]",name);
+    scanf("%[^\n]",name);
           display(name);
           return 0;
 }
